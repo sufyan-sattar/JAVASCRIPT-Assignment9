@@ -1,0 +1,86 @@
+.CompName {
+    color: rgb(62, 149, 243);
+}
+
+.IphoneX {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.Iphonex {
+    margin-top: 50px;
+    margin-left: -135px;
+    text-decoration: none;
+    color: brown;
+}
+
+.VivoY56 {
+    width: 180px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.Vivoy56 {
+    margin-top: 50px;
+    margin-left: -135px;
+    text-decoration: none;
+    color: brown;
+}
+
+.VivoY02t {
+    width: 190px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.Vivoy02t {
+    margin-top: 50px;
+    margin-left: -135px;
+    text-decoration: none;
+    color: brown;
+}
+
+.GooglePixel {
+    width: 200px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+}
+
+.googlepixel {
+    margin-top: 50px;
+    margin-left: -145px;
+    text-decoration: none;
+    color: brown;
+}
+
+.AukatKeBhar {
+    width: 210px;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+
+.aukatkebhar {
+    margin-top: 50px;
+    margin-left: -157px;
+    text-decoration: none;
+    color: brown;
+}
+
+td,th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.delbtn{
+    color: rgb(0, 0, 4);
+    background-color: rgb(217, 38, 38);
+}
+
+.chotusixpack{
+    height: 200px;
+}

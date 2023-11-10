@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1 class="CompName">
+            <center>Mobile Phones Lookup</center>
+        </h1>
+        <div>
+            <img class="IphoneX" src="https://www.ineedamobile.com/wp-content/uploads/2019/03/iphone-x-600x598.png"
+                alt="Iphone X">
+            <a class="Iphonex" href="" onclick="alertBuying()">Iphone X</a>
+
+            <img class="VivoY56" src="https://m.media-amazon.com/images/I/41xnfQ6+TCL.jpg" alt="Vivo Y56 5G">
+            <a class="Vivoy56" href="" onclick="alertBuying()">Vivo Y56 5G</a>
+
+            <img class="VivoY02t"
+                src="https://asia-exstatic-vivofs.vivo.com/PSee2l50xoirPK7y/1674013042529/ab5ccbd23b82bd0b9c0b3afe340e09da.png"
+                alt="Vivo Y02t">
+            <a class="Vivoy02t" href="" onclick="alertBuying()">Vivo Y02t</a>
+
+            <img class="GooglePixel"
+                src="https://lh3.googleusercontent.com/u_6hm46W6ukSeN8TGvcMjPyU5QOsDeIuy1dtuSvEwKFe4WXCH3XyWSGN71pj5Gh92ne7A9lmqUQhxxa0lGtgc0BO9w9y7KtQcg1ofvH2RcOPQRnwADY"
+                alt="Google Pixel">
+            <a class="googlepixel" href="" onclick="alertBuying()">Google Pixel</a>
+
+            <img class="AukatKeBhar"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCCOsJuowC14XZ0lp-U0ygmgiSiJZ-5Aa9_Q&usqp=CAU"
+                alt="">
+            <a class="aukatkebhar" href="" onclick="aukatKeBhar()">Aukat Ke Bhar</a>
+        </div>
+
+        <br>
+        <br>
+        <div>
+            <table id="tablee">
+                <tr>
+                    <th>Index </th>
+                    <th>Name </th>
+                    <th>Class </th>
+                    <th>Delete Button</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Jhone</td>
+                    <td>10</td>
+                    <td><button onclick="deleteRow(this)" class="delbtn">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Doe</td>
+                    <td>9</td>
+                    <td><button onclick="deleteRow(this)" class="delbtn">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mark</td>
+                    <td>10</td>
+                    <td><button onclick="deleteRow(this)" class="delbtn">Delete</button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>James</td>
+                    <td>8</td>
+                    <td><button onclick="deleteRow(this)" class="delbtn">Delete</button></td>
+                </tr>
+            </table>
+
+            <div>
+                <img class="chotusixpack" id="myImage"
+                    src="https://i.pinimg.com/736x/07/f0/10/07f01098c54793f1e1e38881a257ead9.jpg" alt=""
+                    onmouseover="changeImage()" onmouseout="resetImage()">
+            </div>
+        </div>
+
+        <br>
+        <center>
+            <div id="counter">0</div>
+
+            <button onclick="increaseCounter()">Increase</button>
+            <button onclick="decreaseCounter()">Decrease</button>
+        </center>
+
+
+        <script src="app.js"></script>
+</body>
+
+</html>
